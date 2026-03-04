@@ -41,10 +41,10 @@
 #define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 0
 
 // the default brightness
-#define RGB_BACKLIGHT_BRIGHTNESS 255
+#define RGB_BACKLIGHT_BRIGHTNESS 50
 
 // the default effect (RGB test)
-#define RGB_BACKLIGHT_EFFECT 255
+#define RGB_BACKLIGHT_EFFECT 1
 
 // the default effect speed (0-3)
 #define RGB_BACKLIGHT_EFFECT_SPEED 0
@@ -65,9 +65,9 @@
 #define RGB_BACKLIGHT_ALPHAS_MODS_ROW_4 0b0000000000000000
 
 #define RGB_BACKLIGHT_CAPS_LOCK_INDICATOR { .color = { .h = 0, .s = 0 }, .index = 255 }
-#define RGB_BACKLIGHT_LAYER_1_INDICATOR { .color = { .h = 0, .s = 0 }, .index = 255 }
-#define RGB_BACKLIGHT_LAYER_2_INDICATOR { .color = { .h = 0, .s = 0 }, .index = 255 }
-#define RGB_BACKLIGHT_LAYER_3_INDICATOR { .color = { .h = 0, .s = 0 }, .index = 255 }
+#define RGB_BACKLIGHT_LAYER_1_INDICATOR { .color = { .h = 255, .s = 50 }, .index = 41 }
+#define RGB_BACKLIGHT_LAYER_2_INDICATOR { .color = { .h = 255, .s = 50 }, .index = 40 }
+#define RGB_BACKLIGHT_LAYER_3_INDICATOR { .color = { .h = 0, .s = 255 }, .index = 15 }
 
 // Backlight config starts after VIA's EEPROM usage,
 // dynamic keymaps start after this.
